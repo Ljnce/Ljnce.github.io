@@ -23,8 +23,9 @@
 .second-present,
 .third-present,
 .end {
-    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     width: 100%;
+    overflow: hidden;
     position: absolute;
     display: flex;
     flex-direction: column;

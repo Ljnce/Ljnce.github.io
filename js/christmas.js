@@ -1,3 +1,7 @@
+
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
 $('.button').on('click', function(){
 
     if (window.navigator.vibrate) {
@@ -5,7 +9,7 @@ $('.button').on('click', function(){
     }
 
     var button = $(this);
-    button.parent().fadeOut(1000);
+    button.parent().fadeOut(600);
 
 });
 
