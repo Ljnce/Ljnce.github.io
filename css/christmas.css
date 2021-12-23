@@ -45,9 +45,9 @@
 
 .snow-top {
     position: absolute;
-    right: -10%;
+    right: -12%;
     top: -6%;
-    font-size: 48vw;
+    font-size: 30vw;
     color: #fff;
     transform: rotate(45deg);
 }
@@ -55,8 +55,8 @@
 .snow-bottom {
     position: absolute;
     left: -10%;
-    bottom: -6%;
-    font-size: 48vw;
+    bottom: 0%;
+    font-size: 30vw;
     color: #fff;
     transform: rotate(15deg);
 }
@@ -102,7 +102,7 @@
 .end .snow-top {
     top: 38%;
     left: 50%;
-    font-size: 50vw !important;
+    font-size: 30vw !important;
 }
 
 .heart {
