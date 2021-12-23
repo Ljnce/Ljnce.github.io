@@ -149,6 +149,7 @@
 }
 
 .bottom-section.last h1 {
+    font-weight: 300;
     text-align: right;
     font-size: 9vw;
 }
