@@ -5,130 +5,58 @@
         <title>Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/4cd7baf8bb.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Raleway:wght@300&display=swap" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" charset="utf-8"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/it.js" charset="utf-8"></script>
-        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/christmas.css">
     </head>
     <body>
 
-        <header>
-            <div class="container-header">
-                <div class="head">
-                    <h2>Luca</h2>
-                </div>
-            </div>
-        </header>
+        <div id="snow"></div>
 
-        <main>
-            <div class="container-photo">
-                <div class="top">
-                    <div class="top-sx">
-                        <h1><span>&lsaquo;h1&rsaquo;</span> <strong>Hello</strong> <span>&lsaquo;/h1&rsaquo;</span></h1>
-                        <div class="click">
-                            <h2><span>&lsaquo;h1&rsaquo;</span> Benvenuto nel mio portfolio <span>&lsaquo;/h1&rsaquo;</span></h2>
-                        </div>
-                    </div>
-                </div>
+        <div class="welcome">
+            <div class="top-section">
+                <h1> HO HO HO !! </br> BABBO NATALE HA DECISO CHE FINALMENTE CI SI SCAMBIA I REGALI ! </h1>
             </div>
-            <div class="container-hello">
-                <div class="hello">
-                    <div class="ok">
-                        <h2><span>&lsaquo;h2&rsaquo;</span> Mi chiamo Luca <span>&lsaquo;/h2&rsaquo;</span></h2>
-                        <h4>Sono uno Junior Full Stack Web Developer, appassionato di teconlogia, nonchè un instancabile programmatore pronto a mettersi sempre alla prova con nuovi linguaggi di programmazione.</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="container-cards">
-                <div class="center">
-                    <div class="card">
-                        <i class="fas fa-code"></i>
-                        <h4><strong>WEB DEVELOPMENT</strong></h4>
-                        <p>La passione per la tecnologia mi ha portato a formarmi su vari linguaggi di codice e programmazione; competenze consolidate grazie al corso di Full Stack Web Developer di Boolean Careers.
-                        Amo passare il tempo a programmare, testare codici, e se ne avanza, studiarne altri.</p>
-                    </div>
-                    <div class="card">
-                        <i class="fas fa-running"></i>
-                        <h4><strong>SPORT</strong></h4>
-                        <p>Da appassionato di sport, ed healthy style, sono convinto che entrambi stiano alla base per uno stile di vita migliore, sia fisico che mentale.
-                        Tra un codice e l'altro, non può mancare di certo un po di buon sano movimento.</p>
-                    </div>
-                    <div class="card">
-                        <i class="fas fa-plane-departure"></i>
-                        <h4><strong>TRAVEL</strong></h4>
-                        <p>Girare il mondo alla scoperta delle diverse culture, stili di vita diversi, delle nuove esperienze culinarie.
-                        Appena posso, è una delle cose che non farò mai mancare alla mia "to do list". </p>
-                    </div>
-                </div>
-            </div>
-            <div class="container-container">
-                <h1>.container {</h1>
-            </div>
-            <div class="container-my-site">
-                <div class="my-site">
-                    <h2>Visita il mio blog Running post </h2>
-                    <small><span>&#60; small &#62;</span>  By Laravel Mix e Handlebars <span>&#60; /small &#62;</span></small>
-                    <div class="my-site-image">
-                        <a href="#" target="_blank"> <img src="img/blog.png" alt="Running blog"> </a>
-                    </div>
-                </div>
-            </div>
-            <div class="container-my-work">
-                <div class="my-work-title">
-                    <h2>Alcune mie repliche di Netflix e Whatsapp</h2>
-                    <small><span>&#60; /small &#62;</span> With HTML, CSS e JavaScritp <span>&#60; /small &#62;</span></small>
-                </div>
-                <div class="my-work">
-                    <div class="look-this">
-                        <img class="one" src="img/heroflix1.png" alt="boolflix">
-                        <a href="https://github.com/Ljnce/ajax-ex-boolflix" target="_blank"> <img class="two" src="img/heroflix2.png" alt="boolflix"> </a>
-                        <img class="three" src="img/ironzapp1.png" alt="boolzapp">
-                        <a href="https://github.com/Ljnce/js-html-css-boolzap" target="_blank"> <img class="four" src="img/ironzapp2.png" alt="boolzapp"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="container-close">
-                <h1> } </h1>
-            </div>
-            <div class="container-bottom">
-                <div class="skills">
-                    <h1>Skills</h1>
-                </div>
-                <div class="bottom">
-                    <div class="container-grafico">
-                        <canvas id="grafico"></canvas>
-                    </div>
-                    <!-- <div class="container-grafico">
-                        <canvas id="grafico2"></canvas>
-                    </div>
-                    <div class="container-grafico">
-                        <canvas id="grafico3"></canvas>
-                    </div>
-                    <div class="container-grafico">
-                        <canvas id="grafico4"></canvas>
-                    </div> -->
-                </div>
-            </div>
-        </main>
+            <span class="button"> ISTRUZIONI ALL'USO </span>
+        </div>
 
-        <footer>
-            <div class="container-footer">
-                <div class="foot">
-                    <div class="foot-sx">
-
-                    </div>
-                    <div class="foot-dx">
-                        <i class="fab fa-facebook"> <a href="#"> </a> </i>
-                        <i class="fab fa-instagram"> <a href="#"> </a></i>
-                        <i class="fab fa-linkedin-in"> <a href="https://www.linkedin.com/in/lucalincetto/"> </a></i>
-                    </div>
-                </div>
+        <div class="start">
+            <div class="top-section">
+                <h1> Ora che hai scansionato il QR code, non ti resta che aprire il pacco e seguire questa guida per trovare l'ordine esatto in cui aprire i regali </h1>
             </div>
-        </footer>
+            <span class="button"> SCOPRIAMO IL PRIMO REGALO </span>
+        </div>
+
+        <div class="first-present">
+            <div class="top-section">
+                <h1> Il primo regalo è sicuramente il più semplice ma ti servirà per "gustare" al meglio i successivi regali; ascolta il mio consiglio, apri il "confanetto" al centro e provalo subito. </h1>
+            </div>
+            <span class="button"> SECONDO REGALO </span>
+        </div>
+
+        <div class="second-present">
+            <div class="top-section">
+                <h1> Se ti sei gustata il cioccolatino (te la faccio passare anche se non lo hai fatto), è il momento di "farsi belli & profumati" e passare ad i regali seri aprendo il pacco a sinistra. </h1>
+            </div>
+            <span class="button"> TERZO ED ULTIMO REGALO </span>
+        </div>
+
+        <div class="third-present">
+            <div class="top-section">
+                <h1> DI questo ed ultimo regalo posso solo dirti che non ho resistito e che per importanza è sicuramente in prima posizione rispetto agli altri. </br> Ti avviso che ti sta ingannando in pieno se pensi sia più buono del ciccolatino. </h1>
+            </div>
+            <span class="button"> THAT'S ALL </span>
+        </div>
+
+        <div class="end">
+            <div class="top-section last">
+                <h1> BUON NATALE </h1>
+                <h1 class="snow-top">&#10054;</h1>
+            </div>
+            <div class="bottom-section last">
+                <h1> Tuo tamburino </h1>
+            </div>
+        </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="js/main.js" charset="utf-8"></script>
+        <script src="js/christmas.js" charset="utf-8"></script>
     </body>
 </html>
